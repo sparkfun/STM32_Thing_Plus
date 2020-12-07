@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -1240,6 +1240,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.787" y="0.589"/>
 <vertex x="0.717" y="0.699"/>
 <vertex x="0.637" y="0.789"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-S">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
 </packages>
@@ -11368,15 +11409,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="XTAL-08297" x="33.02" y="10.287" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" value="12MHz" x="31.977" y="10.287" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C16" library="SparkFun-Capacitors" package="0402-TIGHT" value="22pF" x="31.488" y="15.875" smashed="yes" rot="R180">
+<element name="C16" library="SparkFun-Capacitors" package="0402-TIGHT" value="15pF" x="31.488" y="15.875" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.488" y="15.113" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14674" x="31.488" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="31.488" y="16.637" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-13063" x="31.488" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="15pF" x="31.488" y="16.637" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C17" library="SparkFun-Capacitors" package="0402-TIGHT" value="22pF" x="31.488" y="14.859" smashed="yes" rot="R180">
+<element name="C17" library="SparkFun-Capacitors" package="0402-TIGHT" value="15pF" x="31.488" y="14.859" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.488" y="14.097" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14674" x="31.488" y="14.859" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="31.488" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-13063" x="31.488" y="14.859" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="15pF" x="31.488" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C18" library="SparkFun-Capacitors" package="0402-TIGHT" value="22pF" x="31.488" y="13.843" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.488" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -11480,6 +11521,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$63" library="output" package="THING_PLUS0" value="" x="8.001" y="11.43" smashed="yes" rot="MR90"/>
 <element name="U$64" library="output" package="STM32F405RG0" value="" x="35.941" y="11.43" smashed="yes" rot="MR90"/>
 <element name="U$65" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="21.082" y="11.43" smashed="yes" rot="R270"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="3.81" y="11.43" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
 <signal name="N$9">
@@ -11613,7 +11655,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="41.91" y="10.16" extent="1-16" drill="0.3048"/>
 <via x="50.6476" y="13.6398" extent="1-16" drill="0.3048"/>
 <contactref element="U4" pad="18"/>
-<wire x1="38.31363125" y1="6.731" x2="38.481" y2="6.731" width="0.2032" layer="1"/>
 <wire x1="38.66" y1="5.68" x2="38.66" y2="6.552" width="0.2032" layer="1"/>
 <wire x1="38.66" y1="6.552" x2="38.481" y2="6.731" width="0.2032" layer="1"/>
 </signal>
@@ -12516,6 +12557,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </mfgpreviewcolors>
 <errors>
 <approved hash="19,16,c59ae748741b80e6"/>
+<approved hash="23,1,c1bc81cb1d4aa462"/>
 </errors>
 </board>
 </drawing>
