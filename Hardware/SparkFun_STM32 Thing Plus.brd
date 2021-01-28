@@ -186,7 +186,7 @@
 <wire x1="13.97" y1="6.985" x2="13.97" y2="5.715" width="0.254" layer="21"/>
 <wire x1="44.45" y1="2.413" x2="44.45" y2="3.175" width="0.3048" layer="22"/>
 <wire x1="39.37" y1="2.413" x2="39.37" y2="3.175" width="0.3048" layer="22"/>
-<text x="0.508" y="9.906" size="1.016" layer="16" font="vector" ratio="15" rot="MR90">v01</text>
+<text x="0.508" y="9.906" size="1.016" layer="16" font="vector" ratio="15" rot="MR90">v10</text>
 <text x="26.67" y="-19.05" size="1.778" layer="51" font="vector" ratio="15">Alex Wende</text>
 <dimension x1="0" y1="0" x2="58.42" y2="0" x3="29.21" y3="-8.89" textsize="1.27" textratio="15" layer="47" unit="inch" visible="yes"/>
 <dimension x1="2.54" y1="2.54" x2="0" y2="2.54" x3="1.27" y3="-3.81" textsize="1.27" textratio="15" layer="47" unit="inch"/>

@@ -27204,7 +27204,7 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="165.608" y="11.176" size="2.54" layer="94" font="vector">Alex Wende</text>
 <text x="2.54" y="124.46" size="2.54" layer="94" font="vector" ratio="15">3.3V Regulator</text>
 <text x="33.02" y="119.38" size="1.778" layer="97" font="vector">VIN: 6V Max</text>
