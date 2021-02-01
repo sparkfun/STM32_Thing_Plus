@@ -27126,7 +27126,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-10V-10%-X7R" value="0.1uF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-10V-10%-X7R" value="0.1uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
@@ -27136,7 +27135,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-10V-10%-X7R" value="0.1uF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -27161,7 +27159,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-10V-10%-X7R" value="0.1uF"/>
 <part name="U3" library="SparkFun-MicroMod" deviceset="W25QXX" device="128MBIT-6X5"/>
@@ -27200,6 +27197,7 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27416,10 +27414,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <instance part="GND4" gate="1" x="147.32" y="137.16" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="147.32" y="136.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="162.56" y="167.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="161.925" y="172.72" size="1.778" layer="95" font="vector" rot="MR270"/>
-<attribute name="VALUE" x="161.925" y="167.64" size="1.778" layer="96" font="vector" rot="MR270"/>
-</instance>
 <instance part="C8" gate="G$1" x="152.4" y="167.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="151.765" y="173.482" size="1.778" layer="95" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="151.765" y="167.64" size="1.778" layer="96" font="vector" rot="MR270"/>
@@ -27453,9 +27447,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 </instance>
 <instance part="GND7" gate="1" x="154.94" y="111.76" smashed="yes">
 <attribute name="VALUE" x="154.94" y="111.506" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="GND8" gate="1" x="162.56" y="160.02" smashed="yes">
-<attribute name="VALUE" x="162.56" y="159.766" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND9" gate="1" x="137.16" y="160.02" smashed="yes">
 <attribute name="VALUE" x="137.16" y="159.766" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -27535,9 +27526,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <instance part="R10" gate="G$1" x="33.02" y="162.56" smashed="yes">
 <attribute name="NAME" x="30.48" y="164.084" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="35.56" y="164.084" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
-</instance>
-<instance part="SUPPLY7" gate="G$1" x="162.56" y="177.8" smashed="yes">
-<attribute name="VALUE" x="162.56" y="180.594" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND36" gate="1" x="63.5" y="5.08" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="66.04" y="2.54" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -27662,6 +27650,10 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <attribute name="VALUE" x="170.18" y="178.054" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="236.22" y="45.72" smashed="yes"/>
+<instance part="TP3" gate="G$1" x="167.64" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.83" y="170.942" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="170.18" y="172.72" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27768,11 +27760,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="154.94" y1="116.84" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="165.1" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -28136,17 +28123,6 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <pinref part="J2" gate="G$1" pin="+"/>
 <wire x1="104.14" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
 <junction x="104.14" y="170.18"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="VBAT"/>
-<wire x1="172.72" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="170.18" x2="167.64" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="175.26" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="172.72" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="SUPPLY7" gate="G$1" pin="V_BATT"/>
-<wire x1="162.56" y1="177.8" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
-<junction x="162.56" y="175.26"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="12"/>
@@ -28778,6 +28754,13 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <pinref part="PWR" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="106.68" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="VBAT"/>
+<wire x1="172.72" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
