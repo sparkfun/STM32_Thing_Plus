@@ -27197,7 +27197,7 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value=""/>
+<part name="VB" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27233,7 +27233,7 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <wire x1="147.32" y1="45.72" x2="147.32" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <text x="2.54" y="68.58" size="2.54" layer="94" font="vector" ratio="15">Connectors</text>
 <text x="114.3" y="40.64" size="2.54" layer="94" font="vector" ratio="15">microSD</text>
-<text x="60.96" y="40.64" size="2.54" layer="94" font="vector" ratio="15">Flash IC</text>
+<text x="60.96" y="40.64" size="2.54" layer="94" font="vector" ratio="15">128 Mbit Flash</text>
 <wire x1="111.76" y1="0" x2="111.76" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="73.66" y1="45.72" x2="58.42" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="58.42" y1="73.66" x2="73.66" y2="73.66" width="0.2032" layer="97" style="longdash"/>
@@ -27246,6 +27246,9 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <wire x1="119.38" y1="71.12" x2="160.02" y2="71.12" width="0.2032" layer="97" style="longdash"/>
 <wire x1="160.02" y1="71.12" x2="160.02" y2="45.72" width="0.2032" layer="97" style="longdash"/>
 <wire x1="160.02" y1="45.72" x2="147.32" y2="45.72" width="0.2032" layer="97" style="longdash"/>
+<text x="223.52" y="177.8" size="1.27" layer="97">VDD Range: 1.8 - 3.6V
+VBAT Range: 1.65 - 3.6V</text>
+<text x="144.78" y="180.34" size="2.54" layer="94" font="vector" ratio="15">STM32F405</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -27650,7 +27653,7 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <attribute name="VALUE" x="170.18" y="178.054" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="236.22" y="45.72" smashed="yes"/>
-<instance part="TP3" gate="G$1" x="167.64" y="170.18" smashed="yes" rot="R180">
+<instance part="VB" gate="G$1" x="167.64" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="163.83" y="170.942" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="170.18" y="172.72" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
@@ -28756,11 +28759,11 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <wire x1="68.58" y1="106.68" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="VB" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="VBAT"/>
 <wire x1="172.72" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="1"/>
+<pinref part="VB" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -28769,6 +28772,10 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
