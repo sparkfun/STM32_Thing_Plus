@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10512,12 +10512,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="" x="10.922" y="6.858" smashed="yes">
 <attribute name="NAME" x="10.922" y="8.382" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="10.922" y="6.858" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="SWCH-15606" x="10.922" y="6.858" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="10.922" y="5.334" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="" x="10.922" y="13.462" smashed="yes">
 <attribute name="NAME" x="10.922" y="14.986" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="10.922" y="13.462" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="SWCH-15606" x="10.922" y="13.462" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="10.922" y="11.938" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="15.367" y="10.16" smashed="yes" rot="R90">
@@ -10535,15 +10535,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-15083" x="9.652" y="2.413" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.89" y="2.413" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" package="0603" value="22" x="10.414" y="9.398" smashed="yes">
+<element name="R9" library="SparkFun-Resistors" package="0603" value="0" x="10.414" y="9.398" smashed="yes">
 <attribute name="NAME" x="10.414" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08698" x="10.414" y="9.398" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="10.414" y="8.636" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08609" x="10.414" y="9.398" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="0" x="10.414" y="8.636" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R10" library="SparkFun-Resistors" package="0603" value="22" x="10.414" y="10.922" smashed="yes">
+<element name="R10" library="SparkFun-Resistors" package="0603" value="0" x="10.414" y="10.922" smashed="yes">
 <attribute name="NAME" x="10.414" y="11.684" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08698" x="10.414" y="10.922" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="10.414" y="10.16" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08609" x="10.414" y="10.922" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="0" x="10.414" y="10.16" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C20" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="51.308" y="14.986" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.87" y="14.986" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
