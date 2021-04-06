@@ -5,7 +5,7 @@ SparkFun STM32 Thing Plus
 
 [*SparkFun STM32 Thing Plus (17712)*](https://www.sparkfun.com/products/17712)
 
-<Basic description of the part.>
+What incorporates a high-performance Arm® Cortex®-M4 32-bit RISC core, a full set of DSP instructions, memory protection unit (MPU), high-speed embedded memories, up to 4 Kbytes of backup SRAM, and an extensive range of enhanced I/Os and peripherals? The new [SparkFun STM32 Thing Plus](https://www.sparkfun.com/products/17712) has all this and more in the popular, Feather-compatible Thing Plus form factor. 
 
 Repository Contents
 -------------------
