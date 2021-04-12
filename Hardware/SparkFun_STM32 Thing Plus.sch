@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -23932,46 +23932,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="0OHM" prefix="R">
-<description>&lt;h3&gt;0Ω resistor&lt;/h3&gt;
+<deviceset name="22OHM" prefix="R">
+<description>&lt;h3&gt;22Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0603-1/10W" package="0603">
+<device name="-0402-1/10W-1%" package="0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-08609"/>
-<attribute name="VALUE" value="0"/>
+<attribute name="PROD_ID" value="RES-12427"/>
+<attribute name="VALUE" value="22"/>
 </technology>
 </technologies>
 </device>
-<device name="-0402-1/10W" package="0402">
+<device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-14244" constant="no"/>
-<attribute name="VALUE" value="0" constant="no"/>
+<attribute name="PROD_ID" value="RES-08698"/>
+<attribute name="VALUE" value="22"/>
 </technology>
 </technologies>
 </device>
-<device name="-0402T-1/10W" package="0402-TIGHT">
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-14244" constant="no"/>
-<attribute name="VALUE" value="0" constant="no"/>
+<attribute name="PROD_ID" value="RES-14340" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -27134,8 +27133,8 @@ IC MCU 32BIT 1MB FLASH 64LQFP&lt;/p&gt;
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="R9" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W" value="0"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W" value="0"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-10V-10%-X7R" value="0.1uF"/>
 <part name="U3" library="SparkFun-MicroMod" deviceset="W25QXX" device="128MBIT-6X5"/>
