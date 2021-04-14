@@ -1,7 +1,7 @@
 SparkFun STM32 Thing Plus
 ========================================
 
-![SparkFun STM32 Thing Plus](URL for picture of part)
+![SparkFun STM32 Thing Plus](https://cdn.sparkfun.com/assets/parts/1/6/8/1/5/17712-Sparkfun_Thing_Plus_-_STM32-01.jpg)
 
 [*SparkFun STM32 Thing Plus (17712)*](https://www.sparkfun.com/products/17712)
 
@@ -15,10 +15,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the STM32 Thing Plus.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/stm32-thing-plus-hookup-guide)** - Basic hookup guide for the STM32 Thing Plus.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 License Information
